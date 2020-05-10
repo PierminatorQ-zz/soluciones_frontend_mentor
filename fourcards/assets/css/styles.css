@@ -1,0 +1,152 @@
+/* variables*/
+:root {
+--lightGray :hsl(0, 0%, 98%);
+--VeryDarkBlue: hsl(234, 12%, 34%);
+--GrayishBlue: hsl(229, 6%, 66%);
+
+--Red: hsl(0, 78%, 62%);
+--Cyan: hsl(180, 62%, 55%);
+--Orange: hsl(34, 97%, 64%);
+--Blue: hsl(212, 86%, 64%);
+
+font-size: 15px;
+margin: 0;
+padding:0;
+box-sizing: border-box;
+
+}
+
+
+body {
+    background-color:var(--lightGray);
+    font-family: 'Poppins', sans-serif;
+    color: var(--VeryDarkBlue);
+}
+
+.containerhead{
+    text-align: center;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 0 30px 0;
+}
+
+.head {
+    font-size: 2.5em;
+    font-weight: 200;
+    line-height: 1.4em;
+}
+
+.head span{
+    font-weight: 600;
+    
+}
+
+.subhead{
+    margin-top: 20px;
+    font-size:1rem;
+    line-height: 1.6em ;
+    color:var(--GrayishBlue);
+    text-align: center;
+}
+
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:60px;
+}
+
+.container2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.card {
+    width: 360px ;
+    min-width: 360px;
+    height: 250px;
+    background: white;
+    margin:15px;
+    padding:30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+    /*shadow*/
+    -webkit-box-shadow: 0px 10px 56px -24px rgba(79,77,122,1);
+    -moz-box-shadow: 0px 10px 56px -24px rgba(79,77,122,1);
+    box-shadow: 0px 10px 56px -24px rgba(79,77,122,1);
+}
+
+.c1 {
+    border-top: 5px solid var(--Cyan);
+}
+
+.c2 {
+    border-top: 5px solid var(--Red);
+}
+
+.c3 {
+    border-top: 5px solid var(--Orange);
+}
+
+.c4 {
+    border-top: 5px solid var(--Blue);
+}
+
+.title-card{
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.text-card{
+    color:var(--GrayishBlue);
+    font-size:0.9em;
+    line-height: 2em;
+}
+
+.icon-card {
+    margin-top:auto;
+    align-self: flex-end;
+    width: 60px;
+    height: 60px;
+}
+
+@media (max-width: 500px) {
+    .container {
+      display: block;
+      justify-content: center;
+      align-content: center;
+      
+      
+    }
+
+    .card{
+        margin:15px auto;
+       
+    }
+
+    .containerhead {
+        padding: 0 40px;
+    }
+
+    .head {
+        font-size: 2em;
+    }
+
+    .subhead{
+        text-align: justify;
+        font-size: 0.9em;
+        padding: 0 30px;
+    }
+
+    br {
+        display:none;
+    }  }
