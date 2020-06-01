@@ -1,0 +1,295 @@
+/*variables*/
+:root {
+    /*primarios*/
+    --DarkViolet: hsl(256, 26%, 20%);
+    --GrayishBlue: hsl(216, 30%, 68%);
+    /*neutrales*/
+    --VeryDarkViolet: hsl(270, 9%, 17%);
+    --DarkGrayishViolet: hsl(273, 4%, 51%);
+    --VeryLightGray: hsl(0, 0%, 98%);
+  }
+
+
+
+*.{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+/*  font-family: 'DM Serif Text', serif;*/
+    font-family: 'Karla', sans-serif;
+    font-size:16px;
+}
+
+
+.navbar-nav li {
+    padding-right: 30px;
+    font-size:0.9em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color
+}
+
+.btn {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.headfull {
+    background-color:var(--DarkViolet);
+    width:100%;
+    height: 620px;
+}
+.head-cont{
+    margin-top:80px;
+}
+
+hr{
+    margin-left:0;
+    margin: 120px 0 60px 0;
+    border-color:var(--VeryLightGray);
+    width: 30%;
+}
+.titulo-head{
+    color:var(--VeryLightGray);
+    font-family: 'DM Serif Text', serif;
+    font-size: 4.5em;
+    line-height: 0.9em;
+}
+
+.subtitle-head{
+    margin-top:35px;
+    color:var(--VeryLightGray);
+    font-weight: lighter;
+    line-height: 1.8em;
+
+
+}
+
+.btn_head{
+    margin-top:15px;
+    padding:10px 35px;
+    font-size:0.9em;
+    font-weight: 700;
+}
+
+.img-head{
+    margin-top:100px;
+    z-index:0;
+}
+
+.pattern-right{
+    position:absolute;
+    z-index:1;
+    right:0;
+    top:-1%;
+    overflow: hidden;
+}
+
+.pattern-left{
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+    bottom:-60%;
+    left:0;
+}
+.sec-diff{
+    padding-top:200px;
+}
+.title-section{
+
+    color:var(--VeryDarkViolet);
+    font-family: 'DM Serif Text', serif;
+    font-size: 4.5em;
+    line-height: 0.9em;
+}
+
+
+.hr-dark{
+    margin-left:0;
+    margin: 120px 0 60px 0;
+    border-color:var(--DarkViolet);
+    width: 15%;
+}
+
+.title-icon{
+    color:var(--VeryDarkViolet);
+    font-family: 'DM Serif Text', serif;
+}
+
+.desc-icon{
+    color:#96A9C7;
+    font-weight: lighter;
+    line-height: 1.8em;
+}
+
+.mgt {
+    margin-top:100px;
+}
+
+.svg-icon{
+    margin-bottom:30px;
+}
+
+.title-icon{
+    margin-bottom:20px;
+}
+
+.how-section{
+    padding:30px;
+    margin:150px 0;
+    background-color:var(--DarkViolet);
+    width:100%;
+
+}
+
+.how-title{
+    color:white;
+    font-family: 'DM Serif Text', serif;
+    font-size: 3.5em;
+    line-height: 1em;
+}
+
+.title-sec{
+    padding:35px;
+}
+
+.btn_how{
+    padding: 8px 30px;
+    font-size: 0.9em;
+    font-weight: 700;
+    z-index:3;
+}
+
+.btn_how:hover{
+    color:var(--DarkViolet);
+    background-color: white;
+    
+}
+
+.title-desc{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pattern-how{
+    position:absolute;
+    right:-9%;
+    z-index:0;
+}
+
+.foot-section{
+    padding: 70px 0;
+    background-color: var(--VeryLightGray);
+}
+.iconf {
+    padding-left: 10px;
+}
+.dist{
+    padding-bottom:30px;
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #efefef;
+}
+
+.logo-foot{
+    z-index: 1;
+    display:inline-block
+}
+
+.icons-foot{
+    display:inline-block;
+}
+
+.group-foot{
+    padding:0;
+}
+
+.group-foot > li{
+    padding-bottom:10px;
+    list-style: none;
+
+}
+
+.title-foot{
+    margin:35px 0;
+    font-size:0.9em;
+    color:#847E87;
+    font-weight: 700;
+
+}
+
+.item-foot{
+    color: var(--VeryDarkViolet);
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+.item-foot:hover{
+    color:color: var(--VeryDarkViolet);
+}
+
+.pattern-foot{
+    position: absolute;
+    top:2063px;
+    z-index:0;
+}
+
+.fot{
+    z-index:3;
+}
+
+.hamburguer{
+    color:var(--VeryDarkViolet) !important ;
+    border-color:var(--VeryDarkViolet) !important;
+    padding:5px !important;
+    
+}
+
+.navbar-toggler{
+    border-width: 2px;
+    border-radius: 0.01em !important;
+    -webkit-border-radius: 0.01em !important;
+    -moz-border-radius: 0.01em !important;
+    -ms-border-radius: 0.01em !important;
+    -o-border-radius: 0.01em !important;
+}
+
+.navbar-toggler-icon{
+    width: 1em;
+    height: 1em;
+
+}
+
+@media (max-width: 500px) {
+    .nav-item {
+        font-size: 1.5em !important;
+        padding:15px;
+        text-align:center;
+    }
+
+    .btn-nav{
+        font-size: 1.5em;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        padding: 10px 80px !important;
+    }
+    .show{
+        padding-top: 30px;
+    }
+
+    .pattern-right, .pattern-left{
+        display:none;
+    }
+  }
+
+
+
+
